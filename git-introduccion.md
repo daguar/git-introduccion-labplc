@@ -1,18 +1,16 @@
 # Git & GitHub Overview
 
+## Most useful commands
+
 ```bash
-git log # show history
 git status # shows status of current files
-git remote -v # show all the remote repos
-git diff # show differences (not committed)
+git log # show history of commits
+git remote -v # show all remote repos
+git diff # show differences (those that have NOT been committed)
+git branch # show all branches (your CURRENT branch will have a * next to it)
 ```
-## Gitignore
 
-`.gitignore` is a file you can add to tell git to ignore files in your working directory
-
-List of helpful .gitignore files GitHub: https://github.com/github/gitignore
-
-## Setup for new git project
+## How to set up a new Git project
 
 ```bash
 mkdir project-name
@@ -21,13 +19,21 @@ touch algo
 git commit -m "New file (or other git message)"
 ```
 
-## GitHub steps
+## Creating a repo on GitHub
 
+- Go to www.github.com
 - Click "New repository"
 - Give a name, and "Create repository"
-- Add a git remote:
+- On your local computer, add a git remote for GitHub (we call it "origin"):
 
 `git remote add origin git@github.com:daguar/git-introduccion-labplc.git`
 - Push to GitHub:
 
 `git push origin master`
+
+
+## Gitignore
+
+`.gitignore` is a file you can add to tell git to ignore files in your working directory
+
+For a list of useful .gitignore files GitHub: https://github.com/github/gitignore

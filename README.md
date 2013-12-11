@@ -14,6 +14,13 @@ git diff # show differences (those that have NOT been committed)
 git branch # show all branches (your CURRENT branch will have a * next to it)
 ```
 
+## Switching branches
+
+```bash
+git checkout BRANCHNAME # switches to a branch
+git checkout -b NEWBRANCHNAME # creates a new branch called NEWBRANCHNAME and switches to it
+```
+
 ## How to set up a new Git project
 
 ```bash

@@ -1,5 +1,3 @@
-
-
 ### ZSH
 
 Oh My Zsh (good installation tool with plugins):

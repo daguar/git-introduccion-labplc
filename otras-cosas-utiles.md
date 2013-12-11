@@ -1,12 +1,6 @@
 ### ZSH
 
+ZSH is just a better Bash.
+
 Oh My Zsh (good installation tool with plugins):
 https://github.com/robbyrussell/oh-my-zsh
-
-### Heroku
-
-Heroku is awesome2122212
-
-### Vagrant
-
-Vagrant is a useful deployment tool

@@ -1,28 +1,33 @@
-# USEFUL COMMANDS
+# Git & GitHub Overview
 
-git log # history
+```bash
+git log # show history
 git status # shows status of current files
 git remote -v # show all the remote repos
 git diff # show differences (not committed)
+```
+## Gitignore
 
-GITIGNORE
+`.gitignore` is a file you can add to tell git to ignore files in your working directory
 
-GitHub list: https://github.com/github/gitignore
+List of helpful .gitignore files GitHub: https://github.com/github/gitignore
 
-SETUP
+## Setup for new git project
 
+```bash
 mkdir project-name
 git init
 touch algo
 git commit -m "New file (or other git message)"
+```
 
-GITHUB
+## GitHub steps
 
-Click "New repository"
-Give a name, and "Create repository"
-
-Add a git remote:
+- Click "New repository"
+- Give a name, and "Create repository"
+- Add a git remote:
 
 `git remote add origin git@github.com:daguar/git-introduccion-labplc.git`
+- Push to GitHub:
 
-
+`git push origin master`

@@ -2,3 +2,4 @@
 2. Simple Mapbox map example: https://www.mapbox.com/mapbox.js/example/v1.0.0/
 3. Leaflet documentation: http://leafletjs.com/reference.html
 4. Leaflet plug-in to use common tile providers: https://github.com/leaflet-extras/leaflet-providers
+5. Tilemill (free software to create and style your own map tiles): https://www.mapbox.com/tilemill/
